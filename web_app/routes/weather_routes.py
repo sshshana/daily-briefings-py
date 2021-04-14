@@ -1,6 +1,6 @@
 # web_app/routes/weather_routes.py
 
-from flask import Blueprint, request, jsonify, render_template, redirect #, flash
+from flask import Blueprint, request, jsonify, render_template, redirect, flash
 
 from app.weather_service import get_hourly_forecasts
 
