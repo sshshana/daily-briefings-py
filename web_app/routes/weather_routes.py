@@ -18,4 +18,4 @@ def weather_forecast_api():
     if results:
         return jsonify(results)
     else:
-        return jsonify({"message":"Invalid Geography. Please try again."}), 404
+        return jsonify({"message":"Invalid Geography. Please try again."}), 404      
